@@ -1,9 +1,8 @@
-package com.example.dashboard;
+package com.example.dashboard.fragments;
 
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.ButtonBarLayout;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
 
@@ -12,7 +11,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
+
+import com.example.dashboard.R;
 
 /**
  * A simple {@link Fragment} subclass.

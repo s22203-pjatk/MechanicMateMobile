@@ -1,14 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CameraFragment">
+    tools:context=".fragments.CameraFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Camera" />
+        android:orientation="vertical"
+        android:padding="16dp">
 
+        <EditText
+            android:id="@+id/editTextRegistrationNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Numer rejestracyjny"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Login"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/button_fetch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pobierz dane"
+            android:layout_marginTop="20dp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/text_view_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EL6574U"
+                android:textSize="18sp"/>
+        </ScrollView>
+    </LinearLayout>
 </FrameLayout>

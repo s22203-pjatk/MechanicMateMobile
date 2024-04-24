@@ -1,4 +1,4 @@
-package com.example.dashboard;
+package com.example.dashboard.fragments;
 
 import android.os.Bundle;
 
@@ -10,7 +10,8 @@ import androidx.navigation.Navigation;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+
+import com.example.dashboard.R;
 
 /**
  * A simple {@link Fragment} subclass.

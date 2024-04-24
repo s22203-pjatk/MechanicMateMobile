@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.dashboard.LoginFragment"
+        android:name="com.example.dashboard.fragments.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -18,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/dashboardFragment"
-        android:name="com.example.dashboard.DashboardFragment"
+        android:name="com.example.dashboard.fragments.DashboardFragment"
         android:label="fragment_dashboard"
         tools:layout="@layout/fragment_dashboard" >
         <action
@@ -54,32 +54,32 @@
     </fragment>
     <fragment
         android:id="@+id/calendarFragment"
-        android:name="com.example.dashboard.CalendarFragment"
+        android:name="com.example.dashboard.fragments.CalendarFragment"
         android:label="fragment_calendar"
         tools:layout="@layout/fragment_calendar" />
     <fragment
         android:id="@+id/addclientFragment"
-        android:name="com.example.dashboard.AddclientFragment"
+        android:name="com.example.dashboard.fragments.AddclientFragment"
         android:label="fragment_addclient"
         tools:layout="@layout/fragment_addclient" />
     <fragment
         android:id="@+id/addcarmanualFragment"
-        android:name="com.example.dashboard.AddcarmanualFragment"
+        android:name="com.example.dashboard.fragments.AddcarmanualFragment"
         android:label="fragment_addcarmanual"
         tools:layout="@layout/fragment_addcarmanual" />
     <fragment
         android:id="@+id/plannedrepairsFragment"
-        android:name="com.example.dashboard.PlannedrepairsFragment"
+        android:name="com.example.dashboard.fragments.PlannedrepairsFragment"
         android:label="fragment_plannedrepairs"
         tools:layout="@layout/fragment_plannedrepairs" />
     <fragment
         android:id="@+id/carsFragment"
-        android:name="com.example.dashboard.CarsFragment"
+        android:name="com.example.dashboard.fragments.CarsFragment"
         android:label="fragment_cars"
         tools:layout="@layout/fragment_cars" />
     <fragment
         android:id="@+id/cameraFragment"
-        android:name="com.example.dashboard.CameraFragment"
+        android:name="com.example.dashboard.fragments.CameraFragment"
         android:label="fragment_camera"
         tools:layout="@layout/fragment_camera" />
 </navigation>
