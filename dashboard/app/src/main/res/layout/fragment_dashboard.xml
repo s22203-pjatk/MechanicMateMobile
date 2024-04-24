@@ -44,7 +44,7 @@
                         android:layout_below="@+id/calendarImage"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
-                        android:text="Calendar"
+                        android:text="Kalendarz"
                         android:textColor="@color/darkblue"
                         android:textSize="20sp" />
 
@@ -79,7 +79,7 @@
                         android:layout_below="@+id/addClientImage"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
-                        android:text="Add client"
+                        android:text="Dodaj klienta"
                         android:textColor="@color/darkblue"
                         android:textSize="20sp" />
 
@@ -126,9 +126,9 @@
                         android:layout_below="@+id/addCarManualImage"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
-                        android:text="Add car manual"
+                        android:text="Dodaj auto ręcznie"
                         android:textColor="@color/darkblue"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
 
                     <ImageView
                         android:id="@+id/addCarManualImage"
@@ -161,7 +161,7 @@
                         android:layout_below="@+id/plannedRepairsImage"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
-                        android:text="Planned repairs"
+                        android:text="Naprawy"
                         android:textColor="@color/darkblue"
                         android:textSize="20sp" />
 
@@ -208,7 +208,7 @@
                         android:layout_below="@+id/carsImage"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
-                        android:text="Cars"
+                        android:text="Pojazdy"
                         android:textColor="@color/darkblue"
                         android:textSize="20sp" />
 
@@ -274,10 +274,10 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/cameraImage"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="10dp"
-                        android:text="Camera"
+                        android:layout_marginTop="8dp"
+                        android:text="Aparat"
                         android:textColor="@color/white"
-                        android:textSize="20sp" />
+                        android:textSize="22sp" />
 
                     <ImageView
                         android:id="@+id/cameraImage"

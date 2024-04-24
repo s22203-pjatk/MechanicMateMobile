@@ -33,73 +33,53 @@
             app:exitAnim="@anim/nav_default_exit_anim" />
         <action
             android:id="@+id/action_dashboardFragment_to_addcarmanualFragment"
-            app:destination="@id/addcarmanualFragment" />
+            app:destination="@id/addcarmanualFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
         <action
             android:id="@+id/action_dashboardFragment_to_plannedrepairsFragment"
-            app:destination="@id/plannedrepairsFragment" />
+            app:destination="@id/plannedrepairsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
         <action
             android:id="@+id/action_dashboardFragment_to_carsFragment"
-            app:destination="@id/carsFragment" />
+            app:destination="@id/carsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
         <action
             android:id="@+id/action_dashboardFragment_to_cameraFragment"
-            app:destination="@id/cameraFragment" />
+            app:destination="@id/cameraFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
     </fragment>
     <fragment
         android:id="@+id/calendarFragment"
         android:name="com.example.dashboard.CalendarFragment"
         android:label="fragment_calendar"
-        tools:layout="@layout/fragment_calendar" >
-        <action
-            android:id="@+id/action_calendarFragment_to_dashboardFragment"
-            app:destination="@id/dashboardFragment"
-            app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim" />
-    </fragment>
+        tools:layout="@layout/fragment_calendar" />
     <fragment
         android:id="@+id/addclientFragment"
         android:name="com.example.dashboard.AddclientFragment"
         android:label="fragment_addclient"
-        tools:layout="@layout/fragment_addclient" >
-        <action
-            android:id="@+id/action_addclientFragment_to_dashboardFragment"
-            app:destination="@id/dashboardFragment"
-            app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim" />
-    </fragment>
+        tools:layout="@layout/fragment_addclient" />
     <fragment
         android:id="@+id/addcarmanualFragment"
         android:name="com.example.dashboard.AddcarmanualFragment"
         android:label="fragment_addcarmanual"
-        tools:layout="@layout/fragment_addcarmanual" >
-        <action
-            android:id="@+id/action_addcarmanualFragment_to_dashboardFragment"
-            app:destination="@id/dashboardFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_addcarmanual" />
     <fragment
         android:id="@+id/plannedrepairsFragment"
         android:name="com.example.dashboard.PlannedrepairsFragment"
         android:label="fragment_plannedrepairs"
-        tools:layout="@layout/fragment_plannedrepairs" >
-        <action
-            android:id="@+id/action_plannedrepairsFragment_to_dashboardFragment"
-            app:destination="@id/dashboardFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_plannedrepairs" />
     <fragment
         android:id="@+id/carsFragment"
         android:name="com.example.dashboard.CarsFragment"
         android:label="fragment_cars"
-        tools:layout="@layout/fragment_cars" >
-        <action
-            android:id="@+id/action_carsFragment_to_dashboardFragment"
-            app:destination="@id/dashboardFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_cars" />
     <fragment
         android:id="@+id/cameraFragment"
         android:name="com.example.dashboard.CameraFragment"
         android:label="fragment_camera"
-        tools:layout="@layout/fragment_camera" >
-        <action
-            android:id="@+id/action_cameraFragment_to_dashboardFragment"
-            app:destination="@id/dashboardFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_camera" />
 </navigation>
